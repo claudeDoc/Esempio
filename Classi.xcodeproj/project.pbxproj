@@ -21,6 +21,8 @@
 		CA28C84719E190600093E984 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA28C82919E190600093E984 /* UIKit.framework */; };
 		CA28C84F19E190600093E984 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA28C84D19E190600093E984 /* InfoPlist.strings */; };
 		CA28C85119E190600093E984 /* ClassiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA28C85019E190600093E984 /* ClassiTests.m */; };
+		CA28C85C19E190AB0093E984 /* ClassePersona.m in Sources */ = {isa = PBXBuildFile; fileRef = CA28C85B19E190AB0093E984 /* ClassePersona.m */; };
+		CA28C85F19E198740093E984 /* ClasseManuale.m in Sources */ = {isa = PBXBuildFile; fileRef = CA28C85E19E198740093E984 /* ClasseManuale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		CA28C84C19E190600093E984 /* ClassiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClassiTests-Info.plist"; sourceTree = "<group>"; };
 		CA28C84E19E190600093E984 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA28C85019E190600093E984 /* ClassiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassiTests.m; sourceTree = "<group>"; };
+		CA28C85A19E190AB0093E984 /* ClassePersona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassePersona.h; sourceTree = "<group>"; };
+		CA28C85B19E190AB0093E984 /* ClassePersona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassePersona.m; sourceTree = "<group>"; };
+		CA28C85D19E198740093E984 /* ClasseManuale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClasseManuale.h; sourceTree = "<group>"; };
+		CA28C85E19E198740093E984 /* ClasseManuale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClasseManuale.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 		CA28C81919E190600093E984 = {
 			isa = PBXGroup;
 			children = (
+				CA28C85A19E190AB0093E984 /* ClassePersona.h */,
+				CA28C85B19E190AB0093E984 /* ClassePersona.m */,
+				CA28C85D19E198740093E984 /* ClasseManuale.h */,
+				CA28C85E19E198740093E984 /* ClasseManuale.m */,
 				CA28C82B19E190600093E984 /* Classi */,
 				CA28C84A19E190600093E984 /* ClassiTests */,
 				CA28C82419E190600093E984 /* Frameworks */,
@@ -250,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA28C83C19E190600093E984 /* ViewController.m in Sources */,
+				CA28C85F19E198740093E984 /* ClasseManuale.m in Sources */,
+				CA28C85C19E190AB0093E984 /* ClassePersona.m in Sources */,
 				CA28C83619E190600093E984 /* AppDelegate.m in Sources */,
 				CA28C83219E190600093E984 /* main.m in Sources */,
 			);

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ClassePersona.h"
+#import "ClasseManuale.h"
 
 @interface ViewController ()
 
@@ -18,6 +20,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    ClassePersona *myPerson = [[ClassePersona alloc] initWithName:@"Paolo" andSurname:@"Rossi"];
+    if (myPerson) {
+        NSLog(@"Nome: %@", [myPerson cognome]);
+    }
+    
+    ClasseManuale *myManual = [[ClasseManuale alloc] init];
+    if (myManual) {
+        [myManual setNome:@"Mario"];
+        NSLog(@"Nome Manuale: %@", [myManual nome]);
+    }
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
